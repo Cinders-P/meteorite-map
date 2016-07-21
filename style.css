@@ -1,0 +1,55 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#title {
+    position: absolute;
+    font-family: sans-serif;
+    left: 70px;
+    top: 700px;
+    font-size: 1.5rem;
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+.small {
+    font-size: 1rem;
+}
+
+.meteor {
+    position: relative;
+    fill: black;
+    fill-opacity: 0.5;
+    stroke: white;
+    stroke-width: 2px;
+    cursor: pointer;
+}
+
+.meteor:hover {
+    fill: white;
+}
+
+#info {
+    display: none;
+    position: absolute;
+    padding: 3px 15px;
+    border-radius: 4px;
+    background-color: white;
+    opacity: 0.8;
+    font-family: sans-serif;
+    font-size: 10px;
+    outline: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+#world {
+    position: absolute;
+    top: 20px;
+    z-index: -1;
+    background-image: url('./world.jpg');
+    background-size: cover;
+    background-position: 0 30%;
+}
